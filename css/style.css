@@ -178,7 +178,13 @@ h1  a{
 	padding:5px 9px 0 10px;
 	cursor:pointer;
 	background:url(../img/bg-yellow-button-right.png) no-repeat 100% 0;
+	transition: all .2s ease;
 }
+#content a.yellow-button span:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
 #leftcol .block .clear{
 	width:100%;
 	overflow:hidden;
